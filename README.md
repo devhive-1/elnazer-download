@@ -26,10 +26,6 @@ branch. GitHub Pages serves it at:
 https://devhive-1.github.io/elnazer-download/
 ```
 
-Family invites use the separate `/family/` page on the same download site. The invite
-code is carried in the URL fragment, not in the HTTP request. Do not add analytics or
-third-party scripts to this page; it handles a bearer invite code.
-
 ## Updating a release
 
 When a matching release is published, `.github/workflows/sync-release-metadata.yml`
