@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devhive-1.github.io/elnazer-download/sitemap.xml
