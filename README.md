@@ -1,6 +1,6 @@
 # El Nazer download landing page
 
-Static Arabic-first download page for El Nazer 0.3.2. No build step, no PHP, no database.
+Static Arabic-first download and family invite pages for El Nazer 0.3.2. No build step, no PHP, no database.
 
 ## Publish on Hostinger
 
@@ -25,6 +25,10 @@ branch. GitHub Pages serves it at:
 ```text
 https://devhive-1.github.io/elnazer-download/
 ```
+
+Family invites use the separate `/family/` page on the same download site. The invite
+code is carried in the URL fragment, not in the HTTP request. Do not add analytics or
+third-party scripts to this page; it handles a bearer invite code.
 
 ## Updating a release
 
